@@ -1,0 +1,14 @@
+/* BEGIN:video-muted-pfp (oddGarrett/v3) */
+/* Allow player avatar to be visible when the "video hidden" overlay is active */
+.video.muted, .video.muted + .icons {
+  --vmuted-scale: 0.3;
+  --vmuted-clamp: calc((1/var(--vmuted-scale) - 1) * 50%);
+  transform: scale(var(--vmuted-scale, 1)) translate(clamp(0% - var(--vmuted-clamp), calc(100000% * (sin(var(--rot, -135deg)) - 0.01)), var(--vmuted-clamp)), clamp(0% - var(--vmuted-clamp), calc(100000% * (cos(var(--rot, -135deg)) - 0.01)), var(--vmuted-clamp)));
+  opacity: 0.9;
+}
+
+#whispers:not(.small) .video.muted, #whispers:not(.small) .video.muted + .icons {
+  --vmuted-scale: 0.15;
+  font-size: 9em;
+}
+/* END:video-muted-pfp */
