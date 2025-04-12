@@ -1,0 +1,9 @@
+/* BEGIN:don't shorten nameplate (JackOfAllTrades) */
+.token .icon[data-v-b2addd42], .token[data-v-b2addd42]:before {margin-top: 0%;}
+
+.nameplate span[data-v-d32323d2] {
+    overflow: visible;
+    min-width: fit-content;}
+
+.nameplate[data-v-d32323d2] {max-width: max-content;}
+/* END:don't shorten nameplate */
