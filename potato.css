@@ -1,0 +1,57 @@
+/* Patters Char Sheet (Potato) - Condensed Character Tab */
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+
+/* BEGIN: Patters Char Sheet (Potato) */
+aside.tab.character-mid.condensed {
+  right: -20.5vw !important;
+  height: 90vh;
+
+  .jinxes {
+    display: none;
+  }
+
+  &.character {
+    .team {
+      aside {
+        visibility: hidden;
+      }
+
+      flex-grow: unset !important;
+
+      ul {
+        margin-left: 0;
+        left: 2.5vw;
+      }
+    }
+
+    li {
+      height: 2.75vh;
+    }
+
+    span.icon {
+      left: 1.2vw;
+      opacity: 0.5;
+      width: 7vw;
+      height: 2.6vh;
+      top: 0;
+      right: 0;
+      background-position: left center;
+    }
+
+    .name {
+      color: #0f0505;
+      left: -8vw;
+      text-transform: uppercase;
+      width: 8vw;
+      overflow: hidden;
+      white-space: nowrap;
+	  font-family: "Six Caps", sans-serif;
+    }
+
+    .container {
+      background-size: 50%;
+      background-position: left;
+    }
+  }
+}
+/* END: Patters Char Sheet (Potato) */
