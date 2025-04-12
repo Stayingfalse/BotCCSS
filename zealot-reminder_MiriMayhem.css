@@ -1,0 +1,8 @@
+/* BEGIN zealot-reminder (MiriMayhem) */
+#app:has(.you .role-zealot):not(:has(.you.dead)):not(:has(.you .fa-hand)) {
+  filter: hue-rotate(90deg);
+  .clock {
+    background: blue;
+  }
+}
+/* END zealot-reminder */
