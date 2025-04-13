@@ -49,7 +49,7 @@ aside.tab.character-mid.condensed {
     .role:hover .ability {
       position: absolute;
       left: -9vw;
-      top: 0.5vh;
+      top: 0vh;
       width: 8.5vw;
       padding: 8px;
       font-size: .7em;
