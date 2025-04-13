@@ -1,0 +1,7 @@
+/* Centre the Game Phase and Version information in centre of Grim */
+#version {
+    right: calc(50vw - 75px) !important;
+    top: 47.5vh !important;
+    bottom: unset !important;
+    width: 150px;
+}
