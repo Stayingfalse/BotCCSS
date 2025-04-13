@@ -65,7 +65,10 @@ aside.tab.character-mid.condensed {
       line-height: 1.2;
       z-index: 9;
     }
-
+    .label {
+      height: 12vh !important;
+      font-size: 50% !important;
+    }
     .container {
       background-size: 50%;
       background-position: left;
