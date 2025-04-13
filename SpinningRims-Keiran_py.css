@@ -1,18 +1,19 @@
-/* BEGIN: Rotating Tokens (Kieran.py) */
+/* BEGIN: Rotating Tokens (Kieran.py) 
+Added the bounce back by Potato */
 @keyframes rotateClockwise {
   0% {
     transform: rotate(0deg); /* Start at 0 degrees */
   }
   50% {
-    transform: rotate(1046deg); /* End at 360 degrees (full rotation) */
+    transform: rotate(1046deg); /* After rotating for over 3 turns go the other way. */
   }
   100% {
-    transform: rotate(0deg); /* End at 360 degrees (full rotation) */
+    transform: rotate(0deg); /* Back to start and then loop */
   }
 }
 
 /* Apply the rotation animation to .token .icon */
 .token  .icon {
-  animation: rotateClockwise 30s linear infinite; /* 10s for a slow rotation, you can adjust the duration */
+  animation: rotateClockwise 30s linear infinite; /* 30s for a slow rotation, you can adjust the duration */
 }
 /* END: Rotating Tokens (Kieran.py) */
