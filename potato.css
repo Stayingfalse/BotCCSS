@@ -46,6 +46,25 @@ aside.tab.character-mid.condensed {
 		font-weight: 400;
 		font-style: normal;
     }
+    .role:hover .ability {
+      position: absolute;
+      left: -9vw;
+      top: 0.5vh;
+      width: 8.5vw;
+      padding: 8px;
+      font-size: .7em;
+      border-radius: 10px;
+      filter: drop-shadow(0 4px 6px rgba(0, 0, 0, .5));
+      text-align: left;
+      font-family: Trade Gothic LT Std, sans-serif;
+      pointer-events: none;
+      background: url(/assets/sheet-viGyPtVW.webp) center center;
+      color: #000;
+      border: 1px solid black;
+      text-shadow: none;
+      line-height: 1.2;
+      z-index: 9;
+    }
 
     .container {
       background-size: 50%;
