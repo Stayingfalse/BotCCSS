@@ -1,0 +1,13 @@
+/* BEGIN keep-token-on-vote (MiriMayhem/v2) */
+#grimoire.townsquare.vote {
+  .reminders {
+    opacity: 1;
+  }
+  .circle .token {
+    transform: none;
+  }
+  .player .shroud {
+    transform: none;
+  }
+}
+/* END keep-token-on-vote */
