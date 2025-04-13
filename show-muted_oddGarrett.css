@@ -1,0 +1,7 @@
+/* BEGIN show-muted (oddGarrett) */
+#app:has(#controls svg.fa-microphone-slash) #center {
+  filter: sepia(0.5);
+  outline: 10px solid red;
+  outline-offset: -10px;
+}
+/* END show-muted */
