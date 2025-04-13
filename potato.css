@@ -24,16 +24,15 @@ aside.tab.character-mid.condensed {
     }
 
     li {
-      height: 2.75vh;
+      height: 3.4vh;
     }
 
     span.icon {
-      left: 1.2vw;
       opacity: 0.5;
       width: 7vw;
-      height: 2.6vh;
+      height: 3.2vh;
       top: 0;
-      right: 0;
+      right: -1vw;
       background-position: left center;
     }
 
