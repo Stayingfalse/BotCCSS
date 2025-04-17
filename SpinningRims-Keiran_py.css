@@ -16,4 +16,8 @@ Added the bounce back by Potato */
 .token  .icon {
   animation: rotateClockwise 30s linear infinite; /* 30s for a slow rotation, you can adjust the duration */
 }
+
+.token .name {
+  animation: rotateClockwise 25s ease-in-out infinite; /* 30s for a slow rotation, you can adjust the duration */
+}
 /* END: Rotating Tokens (Kieran.py) */
