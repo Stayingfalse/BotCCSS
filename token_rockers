@@ -1,0 +1,18 @@
+/* Rockers */
+@keyframes lowSwing {
+  0% {
+    transform: rotate(0deg); /* Start at 0 degrees */
+  }
+  25% {
+    transform: rotate(45deg); /* turn back */
+  }
+  75% {
+    transform: rotate(-45deg); /* turn back again */
+  }
+  100% {
+    transform: rotate(0deg); /* End where you started */
+  }
+}
+.token:hover .icon, .token:hover .name {
+  animation: lowSwing 2s linear infinite;
+}
