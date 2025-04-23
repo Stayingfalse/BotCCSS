@@ -1,8 +1,6 @@
-/* BEGIN zealot-reminder (MiriMayhem) */
-#app:has(.you .role-zealot):not(:has(.you.dead)):not(:has(.you .fa-hand)) {
+/* BEGIN zealot-reminder (MiriMayhem) 
+Updated to remove the red square in centre and only apply when a vote is happening.*/
+#app:has(#grimoire.vote):has(.you .role-zealot):not(:has(.you.dead)):not(:has(.you .fa-hand)) {
   filter: hue-rotate(90deg);
-  .clock {
-    background: blue;
-  }
 }
 /* END zealot-reminder */
