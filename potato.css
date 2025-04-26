@@ -1,9 +1,17 @@
 /* Patters Char Sheet (Potato) - Condensed Character Tab */
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+#controls {
+   right: 9.5vw !important;
+   div[class=menu] ul {
+	visibility: hidden !important;
+   }
+}
+
 aside.tab.condensed {
+  top: 0;
   right: -20.5vw !important;
-  height: 90vh;
+  height: 100vh;
 
   .jinxes {
     display: none;
