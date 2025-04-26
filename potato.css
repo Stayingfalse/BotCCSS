@@ -9,10 +9,10 @@
 }
 
 aside.tab.condensed.character {
-  top: 0;
+  top: 0 !important;
   right: -20.5vw !important;
-  height: 100vh;
-  z-index: 10;
+  height: 100vh !important;
+  z-index: 10 !important;
 
   .jinxes {
     display: none;
