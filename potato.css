@@ -1,7 +1,7 @@
 /* Patters Char Sheet (Potato) - Condensed Character Tab */
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
-aside.tab.character-mid.condensed {
+aside.tab.condensed {
   right: -20.5vw !important;
   height: 90vh;
 
@@ -66,8 +66,7 @@ aside.tab.character-mid.condensed {
       z-index: 9;
     }
     .label {
-      height: 12vh !important;
-      font-size: 50% !important;
+      display: none;
     }
     .container {
       background-size: 50%;
