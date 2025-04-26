@@ -12,6 +12,7 @@ aside.tab.condensed {
   top: 0;
   right: -20.5vw !important;
   height: 100vh;
+  z-index: 10;
 
   .jinxes {
     display: none;
