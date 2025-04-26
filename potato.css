@@ -36,10 +36,10 @@ aside.tab.condensed.character {
 
     span.icon {
       opacity: 0.5;
-      width: 7vw;
+      width: 7vw !important;
       height: 3.2vh;
       top: 0;
-      right: -1vw;
+      right: -1vw !important;
       background-position: left center;
     }
 
