@@ -8,7 +8,7 @@
    }
 }
 
-aside.tab.condensed {
+aside.tab.condensed.character {
   top: 0;
   right: -20.5vw !important;
   height: 100vh;
@@ -17,8 +17,6 @@ aside.tab.condensed {
   .jinxes {
     display: none;
   }
-
-  &.character {
     .team {
       aside {
         visibility: hidden;
@@ -82,5 +80,4 @@ aside.tab.condensed {
       background-position: left;
     }
   }
-}
 /* END: Patters Char Sheet (Potato) */
