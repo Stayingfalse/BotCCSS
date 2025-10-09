@@ -1,15 +1,26 @@
 /* Patters Char Sheet (Potato) - Condensed Character Tab */
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
-aside.tab.character-mid.condensed {
+#controls {
+   right: 9.5vw !important;
+   div[class=menu] ul {
+	visibility: hidden !important;
+   }
+}
+
+aside.tab.night-order:not(.mid):not(.open) div.label {
+   font-size: 50% !important;
+   width: 10.5vw;
+}
+
+aside.tab.condensed.character:not(.character-open) {
+  top: 0 !important;
   right: -20.5vw !important;
-  height: 90vh;
+  height: 100vh !important;
 
   .jinxes {
     display: none;
   }
-
-  &.character {
     .team {
       aside {
         visibility: hidden;
@@ -29,10 +40,10 @@ aside.tab.character-mid.condensed {
 
     span.icon {
       opacity: 0.5;
-      width: 7vw;
+      width: 7vw !important;
       height: 3.2vh;
       top: 0;
-      right: -1vw;
+      right: -1vw !important;
       background-position: left center;
     }
 
@@ -66,13 +77,11 @@ aside.tab.character-mid.condensed {
       z-index: 9;
     }
     .label {
-      height: 12vh !important;
-      font-size: 50% !important;
+      display: none;
     }
     .container {
       background-size: 50%;
       background-position: left;
     }
   }
-}
 /* END: Patters Char Sheet (Potato) */
