@@ -11,6 +11,7 @@
 aside.tab.night-order:not(.mid):not(.open) div.label {
    font-size: 50% !important;
    width: 10.5vw;
+   writing-mode: vertical-rl;
 }
 
 aside.tab.condensed.character:not(.character-open) {
@@ -85,3 +86,4 @@ aside.tab.condensed.character:not(.character-open) {
     }
   }
 /* END: Patters Char Sheet (Potato) */
+
